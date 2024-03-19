@@ -1,0 +1,38 @@
+{
+  "name": "vectorindexeddb",
+  "version": "0.0.1",
+  "description": "Implementation of HSNW index on top of IndexedDB",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "publish-lib": "npm run build && npm publish",
+    "publish-beta": "npm run build && npm publish --tag beta",
+    "publish-dryrun": "npm run build && npm publish --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracer0tong/VectorIndexedDB.git"
+  },
+  "keywords": [
+    "browser",
+    "database",
+    "library",
+    "vector",
+    "index",
+    "hsnw"
+  ],
+  "author": "Yury Leonychev <yury@intellics.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tracer0tong/VectorIndexedDB/issues"
+  },
+  "homepage": "https://github.com/tracer0tong/VectorIndexedDB#readme",
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}
